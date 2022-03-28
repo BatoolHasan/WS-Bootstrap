@@ -22,16 +22,11 @@ Remove the button since we don’t need it.
 
 Let's make the card look more like the one in Warehouse. Let's add the text utility class `text-muted` to the subtitle to make it grey.
 ```html
-<main>
-    <div class="m-2">
-        <div class="card" style="width: 18rem;">
-            <img src="./card-img.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">0. System Setup</h5>
-                <p class="card-text text-muted">Required installations</p>
-            </div>
-        </div>
-    </div>
-</main>
+...
+<div class="card-body">
+    ...
+    <p class="card-text text-muted">Required installations</p>
+</div>
+...
 ```
 ![card with text-muted](https://user-images.githubusercontent.com/18662979/156926081-11de5ac3-062c-4a48-9e46-2177438ff87f.JPG)

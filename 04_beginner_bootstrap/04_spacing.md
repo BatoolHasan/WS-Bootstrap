@@ -14,7 +14,9 @@ In Bootstrap, margins are categorized by: `top`, `bottom`, `start`, and `end`. I
 <br/>
 Let’s apply `ms-2`
 ```html
+...
 <button class="btn btn-outline-secondary text-uppercase ms-2">log out</button>
+...
 ```
 ![navbar button margin](https://user-images.githubusercontent.com/18662979/155180164-a4d2d1fd-eabf-4723-be24-b5872a6789d1.png)
 
